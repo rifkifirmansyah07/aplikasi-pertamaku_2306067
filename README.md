@@ -1,116 +1,46 @@
-📱 Aplikasi Pertamaku
+APLIKASI PERTAMAKU
 
-Aplikasi ini merupakan aplikasi Flutter sederhana yang menampilkan halaman artikel beserta daftar komentar pengguna.
+Nama: Rifki Firmansyah
+NIM: 2306067
+Mata Kuliah: Paktikum Pemrograman Mobile
+Teknologi: Flutter
 
-🎯 Fitur Utama
+Deskripsi
+
+Aplikasi ini merupakan aplikasi Flutter sederhana yang menampilkan sebuah halaman artikel beserta daftar komentar pengguna. Aplikasi dibuat menggunakan widget dasar Flutter dengan konsep Material Design.
+
+Tujuan
+
+Tujuan pembuatan aplikasi ini adalah untuk memahami struktur dasar Flutter, penggunaan StatelessWidget, serta implementasi widget seperti Scaffold, Card, ListView, dan Image.
+
+Fitur Aplikasi
 
 Menampilkan AppBar dengan judul aplikasi
 
 Menampilkan artikel dengan gambar dari internet
 
-Menampilkan daftar komentar dalam bentuk Card
+Menampilkan judul artikel
 
-Menggunakan desain sederhana dengan padding, border radius, dan shadow
+Menampilkan beberapa komentar pengguna dalam bentuk Card
 
-🧱 Struktur Kode
-1️⃣ main()
+Menggunakan styling seperti padding, border radius, dan elevation
 
-Berfungsi sebagai titik awal aplikasi.
+Struktur Utama
 
-void main() {
-  runApp(HomePage());
-}
+Aplikasi terdiri dari:
 
-runApp() menjalankan widget utama yaitu HomePage.
+main() sebagai titik awal program
 
-2️⃣ HomePage
+MaterialApp sebagai pembungkus aplikasi
 
-Merupakan StatelessWidget yang berisi seluruh tampilan aplikasi.
+Scaffold sebagai struktur halaman
 
-class HomePage extends StatelessWidget
+SingleChildScrollView agar konten bisa discroll
 
-Karena tidak ada perubahan data (state), maka menggunakan StatelessWidget.
+Card untuk artikel dan komentar
 
-3️⃣ MaterialApp
+ListView untuk menampilkan daftar komentar
 
-Digunakan sebagai pembungkus utama aplikasi Flutter.
+Kesimpulan
 
-Fungsi:
-
-Mengatur tema dasar
-
-Menghilangkan debug banner
-
-Menentukan halaman utama (home)
-
-4️⃣ Scaffold
-
-Digunakan sebagai struktur dasar halaman yang terdiri dari:
-
-AppBar
-
-Body
-
-Background color
-
-5️⃣ Bagian Artikel
-
-Artikel ditampilkan menggunakan:
-
-Card → sebagai wadah
-
-Image.network() → mengambil gambar dari internet
-
-Text() → judul artikel
-
-Padding dan SizedBox → untuk jarak antar elemen
-
-6️⃣ Bagian Komentar
-
-Komentar dibuat menggunakan:
-
-ListView
-
-Beberapa Card
-
-Column
-
-Text
-
-Setiap komentar memiliki:
-
-Nama pengguna (bold)
-
-Isi komentar
-
-🎨 Styling yang Digunakan
-
-Background halaman: abu-abu muda
-
-AppBar: warna custom
-
-Card: menggunakan elevation (shadow)
-
-BorderRadius untuk sudut membulat
-
-FontWeight bold untuk judul dan nama pengguna
-
-Spacing menggunakan SizedBox
-
-🛠 Teknologi yang Digunakan
-
-Flutter
-
-Dart
-
-Widget dasar Material Design
-
-📌 Tujuan Project
-
-Project ini dibuat untuk:
-
-Memahami struktur dasar Flutter
-
-Memahami penggunaan Widget seperti Scaffold, Card, ListView
-
-Melatih pembuatan tampilan UI sederhana
+Aplikasi ini berhasil menampilkan tampilan artikel dan komentar menggunakan widget dasar Flutter. Project ini membantu memahami dasar pembuatan antarmuka (UI) pada aplikasi mobile menggunakan Flutter.
