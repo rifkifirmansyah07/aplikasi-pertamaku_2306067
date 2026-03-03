@@ -1,8 +1,11 @@
 APLIKASI PERTAMAKU
 
 Nama: Rifki Firmansyah
+
 NIM: 2306067
+
 Mata Kuliah: Paktikum Pemrograman Mobile
+
 Teknologi: Flutter
 
 Deskripsi
@@ -44,3 +47,4 @@ ListView untuk menampilkan daftar komentar
 Kesimpulan
 
 Aplikasi ini berhasil menampilkan tampilan artikel dan komentar menggunakan widget dasar Flutter. Project ini membantu memahami dasar pembuatan antarmuka (UI) pada aplikasi mobile menggunakan Flutter.
+
